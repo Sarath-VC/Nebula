@@ -1,0 +1,42 @@
+{% include "header.html" %}
+	<style type="text/css">
+
+		form div{
+			width:300px;
+			text-align: left;
+			margin-top: 10px;
+		}
+		form div input{
+			width: 100%
+		}
+	</style>
+	<center>
+		<h1>SUB SERVER</h1>
+		<form method="post">
+			
+			<div>
+				<fieldset>
+					<label>Host</label>
+					<input class="form-control" type="text" name="host" />
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<label>Username</label>
+					<input class="form-control" type="text" name="username" />
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<label>Password</label>
+					<input class="form-control" type="password" name="password" />
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<input type="submit" class="btn btn-info" name="register" value="Register" />
+				</fieldset>
+			</div>
+		</form>
+	</center>
+{% include "footer.html" %}

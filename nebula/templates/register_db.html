@@ -1,0 +1,13 @@
+{% include "header.html" %}
+	<center>
+		<h1>Upload Project Database</h1><br>
+		<form class="form-group" action="" method="post" enctype='multipart/form-data'>
+			<div>
+				<input class="form-control" type="file" name="sqldump">
+			</div><br>
+			<div>
+				<input class="btn btn-primary" type="submit" name="upload" value="Upload">
+			</div>
+		</form>
+	</center>
+{% include "footer.html" %}
